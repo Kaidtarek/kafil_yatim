@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kafil_yatim/admin_show/family_ad/gridOfActions/orphan_home.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({Key? key}) : super(key: key);
@@ -16,32 +17,25 @@ class _CartPageState extends State<CartPage> {
           crossAxisCount: 2,
           children: [
             GridItem(icon: Icons.home_work, text: 'السـكن', onPressed: () {
-              // Action for Button 1
-              print('Button 1 pressed');
+              Navigator.push(context, MaterialPageRoute(builder: (context) => orphan_info()));
             }),
-            GridItem(icon: Icons.shopping_basket_outlined, text: 'Button 2', onPressed: () {
-              // Action for Button 2
-              print('Button 2 pressed');
+            GridItem(icon: Icons.shopping_basket_outlined, text: ' القفة الشهرية ', onPressed: () {
+              
             }),
-            GridItem(icon: Icons.dark_mode_outlined, text: 'Button 3', onPressed: () {
+            GridItem(icon: Icons.dark_mode_outlined, text: 'قفة رمضان ', onPressed: () {
               // Action for Button 3
               print('Button 3 pressed');
             }),
-            GridItem(icon: Icons.mosque_outlined, text: 'Button 4', onPressed: () {
+            GridItem(icon: Icons.mosque_outlined, text: 'عيد الاضحى', onPressed: () {
               // Action for Button 4
               print('Button 4 pressed');
             }),
-            GridItem(icon: Icons.checkroom_outlined, text: 'Button 5', onPressed: () {
-              // Action for Button 5
-              print('Button 5 pressed');
+            GridItem(icon: Icons.checkroom_outlined, text: 'عيد الفطر', onPressed: () {
             }),
-            GridItem(icon: Icons.holiday_village, text: 'Button 6', onPressed: () {
-              // Action for Button 6
-              print('Button 6 pressed');
+            GridItem(icon: Icons.holiday_village, text: 'التخييمات', onPressed: () {
+              
             }),
-            GridItem(icon: Icons.storage, text: 'Button 7', onPressed: () {
-              // Action for Button 7
-              print('Button 7 pressed');
+            GridItem(icon: Icons.storage, text: 'المستودع', onPressed: () {
             }),
             
           ],
