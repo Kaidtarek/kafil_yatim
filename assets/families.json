@@ -1,0 +1,12 @@
+[
+    {
+        "name":"tarek",
+        "age" :20,
+        "addres": "sidi belabbes"
+    },
+    {
+        "name": "ahmed",
+        "age" :19 ,
+        "addres":"oran"
+    }
+]
